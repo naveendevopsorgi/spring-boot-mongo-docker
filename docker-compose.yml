@@ -29,8 +29,8 @@ services:
     
 volumes:
   mongodb:
-    external: true
+    external: local
     
 networks:
   springappnetwork:
-    external: true
+    external: bridge
